@@ -56,7 +56,6 @@ section.banner {
 }
 
 .banner.text{
-    background-color: lawngreen;
     width: 35%;
 }
 
@@ -308,12 +307,15 @@ div.box.uni.design {
     padding-top: 2.3em;
 }
 
-.box-login {
+.box-btn.login {
+    margin-left: 3em;
+}
+
+.box-btn {
     border: none;
-    padding: .5em 1em;
+    padding:  7px 12px;
     background-color: #0160fe;
     color: white;
-    margin-left: 3em;
 }
 
 /* Main > banner */
@@ -324,5 +326,27 @@ div.box.uni.design {
 
 h1.bn-title-h1 {
     font-size: 4em;
-    padding-top: 2em;
+    padding-top: 2.4em;
+}
+
+.box-btn.free-trial-btn {
+    margin: 1em 0 .5em;
+}
+
+.text-banner {
+    margin: 2em 0 1em;
+}
+
+.text-banner-adv {
+    font-size: .7em;
+}
+
+.banner-entity-down {
+
+}
+
+.banner-entity-down > a {
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
 }
