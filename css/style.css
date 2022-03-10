@@ -22,12 +22,14 @@ html {
     margin: 0 auto;
 }
 
+/* LAYOUT */
+
 /* Header set */
 
 header {
     width: 100%;
-    height: 60px;
-    background-color: aqua;
+    height: 70px;
+    background-color: white;
     float: left;
 }
 
@@ -38,13 +40,11 @@ header > nav > div {
     width: 10%;
     height: 50px;
     padding-bottom: 10px;
-    background-color: brown;
 }
 
 .a-links {
     width: 39.5%;
     height: 50px;
-    background-color: blueviolet;
 }
 
 /* /Header set */
@@ -53,13 +53,6 @@ header > nav > div {
 
 section.banner {
     height: 700px;
-    background-color: darkslategrey;
-}
-
-.banner.title {
-    background-color: gold;
-    height: 300px;
-    width: 100%;
 }
 
 .banner.text{
@@ -288,3 +281,48 @@ div.box.uni.design {
     height: 500px;
 }
 /* /sect info set */
+
+/* LAYOUT */
+
+/* header and nav */
+
+#logo-header-img {
+    vertical-align: middle;
+}
+
+.link-header {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2em;
+}
+
+.link-header > a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link-header.right {
+    float: right;
+    vertical-align: middle;
+    padding-top: 2.3em;
+}
+
+.box-login {
+    border: none;
+    padding: .5em 1em;
+    background-color: #0160fe;
+    color: white;
+    margin-left: 3em;
+}
+
+/* Main > banner */
+
+.banner {
+    background-color: #b4d0e6;
+}
+
+h1.bn-title-h1 {
+    font-size: 4em;
+    padding-top: 2em;
+}
