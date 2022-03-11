@@ -84,9 +84,10 @@ section.banner {
 }
 
 .product-column {
-    width: 33%;
+    width: 30%;
     height: 620px;
     float: left;
+    margin: 1.1em ;
     background-color: blueviolet;
 }
 
@@ -371,4 +372,37 @@ h1.bn-title-h1 {
     margin-left: 1.5em;
 }
 
+.user-icon {
+    padding: 0 40%;
+    border: 1px solid grey;
+}
+
+
+
 /* /List product */
+
+span.pro-product-icon > span > i {
+ line-height: 30px;
+}
+    
+
+.product-h3-title{
+    padding: 1em 0;
+}
+
+.product-h4-title{
+    padding: .5em 0;
+}
+
+.far.fa-user {
+    margin-top: 1em;
+}
+
+.box-btn.product-btn {
+    margin-top: 2em;
+}
+
+.buy-now-box {
+    position: relative;
+    top: 1.5em;
+}
