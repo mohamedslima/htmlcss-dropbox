@@ -75,7 +75,7 @@ section.banner {
 /* list product set */
 
 .list-product {
-    height: 1500px;
+    height: 1400px;
 }
 
 .title-product {
@@ -92,10 +92,16 @@ section.banner {
 }
 
 .sect-contact-us {
-    width: 100%;
-    height: 700px;
-    background-color: blue;
+    margin: 0 auto;
+    width: 95%;
+    height: 200px;
     overflow: hidden;
+    border: 1px solid grey;
+}
+
+.contact-center {
+    width: 70%;
+    height: 500px;
 }
 
 /* /list product set */
@@ -105,7 +111,6 @@ section.banner {
 .sect-find-partner {
     width: 100%;
     height: 600px;
-    background-color: slateblue;
 }
 
 .partner {
@@ -115,13 +120,10 @@ section.banner {
 .partner.img {
     width: 55%;
     height: 600px;
-    background-color: salmon;
 }
 
 .partner.text {
     width: 45%;
-    height: 600px;
-    background-color: burlywood;
 }
 
 /* /find partner set */
@@ -130,35 +132,29 @@ section.banner {
 
 .sect-pro-list {
     width: 100%;
-    height: 1250px;
-    background-color: lightseagreen;
+    height: 1600px;
 }
 
 .box-title-list {
-    width: 100%;
     height: 200px;
-    background-color: firebrick;
 }
 
 .col.up{
-    background-color: skyblue;
     float: left;
 }
 
 .col.down{
-    background-color: goldenrod;
     float: left;
 }
 
 .col {
     width: 33%;
-    height: 400px;
+    height: 600px;
 }
 
 .box-db-business {
-    width: 100%;
+    width: 39%;
     height: 240px;
-    background-color: aqua;
     overflow: hidden;
 }
 
@@ -169,27 +165,23 @@ section.banner {
 .sect-university {
     width: 100%;
     height: 400px;
-    background-color: khaki;
 }
 
 div.box.uni{
     width: 30%;
     height: 100%;
-    background-color: darkgoldenrod;
     float: left;
 }
 
 div.box.uni.design {
     width: 40%;
     height: 100%;
-    background-color: aqua;
 }
 
 .micro-box{
     width: 50%;
     height: 50%;
-    background-color: blue;
-    border: 1px solid red;
+    text-align: center;
 }
 
 .micro-box.up,
@@ -369,18 +361,13 @@ h1.bn-title-h1 {
 }
 
 .user-icon {
-    padding: 0 40%;
+    padding: 2% 40%;
     border: 1px solid grey;
+    position: relative;
+    bottom: 8px;
 }
-
-
 
 /* /List product */
-
-.user-icon {
-    position: relative;
-    bottom: 14px;
-}
 
 span.pro-product-icon > span > i {
  line-height: 30px;
@@ -431,7 +418,7 @@ h4.subtitle-column-product {
 }
 
 .central-text-product > i {
-    color: green;
+    color: #0a68ff;
 }
 
 .cntrl-no-dec {
@@ -445,4 +432,134 @@ h4.subtitle-column-product {
 .buy-now-clr {
     text-decoration: none;
     color: #3882ff;
+}
+
+.user-icon-w {
+    padding: 1% 50%;
+    border: 1px solid grey;
+    position: relative;
+    bottom: 10px;
+}
+
+.text-contact-center {
+    font-size: .9em;
+}
+
+.contact-center {
+    line-height: 2em;
+    padding: 3em 1.5em;
+    float: left;
+}
+
+.contact-box {
+    float: left;
+}
+
+div.contact-box > button.box-btn{
+    margin: 3.5em 0 0;
+    padding: .6em 3.5em;
+}
+
+/* sect partner */
+
+#img-partner {
+    height: 70%;
+    vertical-align: middle;
+    margin: 4em 6em;
+}
+
+.box-btn-white {
+    padding: .5em 2em;
+    background-color: white;
+}
+
+.all-text-partner{
+    margin: 6em 3em 0;
+}
+
+.all-text-partner > h2{
+    margin-bottom: 1em;
+}
+
+.all-text-partner > p{
+    margin-bottom: 1em;
+}
+
+/* section pro list */
+
+.box-title-list > h1{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.micro-png-sect {
+    height: 35%;
+}
+
+.col-title-bn{
+    margin: 1em 0;
+}
+
+.col-text-box-bn{
+    margin-right: 5em;
+}
+
+.col-text-box-bn > p{
+    line-height: 1.5em;
+}
+
+.box-db-business > h1{
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+.box-db-business span a{
+    color: #3882ff;
+}
+
+/* section university */
+
+.image-university{
+    width: 75%;
+    height: 75%;
+    margin-top: 1em;
+}
+
+.image-university-h{
+    width: 50%;
+    height: 10%;
+    margin-top: 5em;
+}
+
+.micro-box.up.left{
+    background-color: #a1d49b;
+}
+
+.micro-box.up.right{
+    background-color: #61082b;
+}
+
+.micro-box.down.left{
+    background-color: #0593ce;
+}
+
+.micro-box.down.right{
+    background-color: #FF1E14;
+}
+
+.micro-box.up.left-2{
+    background-color: #d5011f;
+}
+
+.micro-box.up.right-2{
+    background-color: #b4d0e6;
+}
+
+.micro-box.down.left-2{
+    background-color: #0d2581;
+}
+
+.micro-box.down.right-2{
+    background-color: #ffd92e;
 }
