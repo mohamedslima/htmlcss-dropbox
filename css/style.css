@@ -28,7 +28,6 @@ html {
 
 header {
     width: 100%;
-    height: 70px;
     background-color: white;
     float: left;
     position:fixed;
@@ -77,13 +76,8 @@ section.banner {
 
 /* list product set */
 
-.list-product {
-    height: 1400px;
-}
-
 .title-product {
     width: 100%;
-    height: 350px;
 }
 
 .product-column {
@@ -104,7 +98,6 @@ section.banner {
 
 .contact-center {
     width: 70%;
-    height: 500px;
 }
 
 /* /list product set */
@@ -142,23 +135,14 @@ section.banner {
     height: 200px;
 }
 
-.col.up{
+.col{
     float: left;
-}
-
-.col.down{
-    float: left;
-}
-
-.col {
     width: 33%;
     height: 600px;
 }
 
 .box-db-business {
     width: 39%;
-    height: 240px;
-    overflow: hidden;
 }
 
 /* /pro list set */
@@ -176,7 +160,7 @@ div.box.uni{
     float: left;
 }
 
-div.box.uni.design {
+div.box.uni.design{
     width: 40%;
     height: 100%;
     padding: 2em;
@@ -204,7 +188,6 @@ div.box.uni.design {
 }
 
 .free-trial{
-    height: 320px;
     float: left;
 }
 
@@ -222,7 +205,6 @@ div.box.uni.design {
 
 .sect-help-question {
     width: 100%;
-    height: 800px;
 }
 
 .help.title {
@@ -232,7 +214,7 @@ div.box.uni.design {
 
 .help.text {
     width: 100%;
-    height: 550px;
+    height: 500px;
 }
 
 /* /help question set */
@@ -298,7 +280,9 @@ div.box.uni.design {
     color: white;
 }
 
-.box-btn:hover
+.box-btn:hover{
+    background-color: #0160fec4;
+}
 
 /* Main > banner */
 
@@ -469,6 +453,10 @@ div.contact-box > button.box-btn{
     background-color: white;
 }
 
+.box-btn-white:hover{
+    background-color: #e4e4e4;
+}
+
 .all-text-partner{
     margin: 6em 3em 0;
 }
@@ -590,11 +578,15 @@ div.contact-box > button.box-btn{
     margin: 8em 8em;
 }
 
+.box-btn-white-trial:hover{
+    background-color: #e4e4e4;
+}
+
 /* Section help question */
 
 .title-h1-help{
     font-size: 1.8em;
-    padding: 6em 3.5em;
+    padding: 6em 0;
 }
 
 .answer-help {
