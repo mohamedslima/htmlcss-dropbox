@@ -31,6 +31,8 @@ header {
     height: 70px;
     background-color: white;
     float: left;
+    position:fixed;
+    z-index: 100;
 }
 
 header > nav > div {
@@ -53,6 +55,7 @@ header > nav > div {
 
 section.banner {
     height: 700px;
+    background-color: #b4d0e6;
 }
 
 .banner.text{
@@ -243,23 +246,18 @@ div.box.uni.design {
 }
 
 .col-end {
-    border: 1px solid red;
     float: left;
 }
 
 .col-end.n1,
-.col-end.n6 {
-    width: 20%;
-    height: 500px;
-    border: 1px solid red;
+.col-end.n5 {
+    width: 22%;
 }
 
 .col-end.n2,
 .col-end.n3,
-.col-end.n4,
-.col-end.n5 {
-    width: 15%;
-    height: 500px;
+.col-end.n4 {
+    width: 18.6%;
 }
 /* /sect info set */
 
@@ -299,6 +297,8 @@ div.box.uni.design {
     background-color: #0160fe;
     color: white;
 }
+
+.box-btn:hover
 
 /* Main > banner */
 
@@ -520,12 +520,14 @@ div.contact-box > button.box-btn{
     width: 75%;
     height: 75%;
     margin-top: 1em;
+    filter: invert(1);
 }
 
 .image-university-h{
     width: 50%;
     height: 10%;
     margin-top: 5em;
+    filter: invert(1);
 }
 
 .micro-box.up.left{
@@ -599,7 +601,7 @@ div.contact-box > button.box-btn{
     display: none;
   }
  
-  .question-help:hover + .answer-help {
+.question-help:hover + .answer-help {
     display: block;
     color: gray;
     width: 100%;
@@ -607,10 +609,69 @@ div.contact-box > button.box-btn{
     margin-top: 1em;
   }
 
-  #hr-help{
-      margin: 2em 0 2em;
+#hr-help{
+    margin: 2em 0 2em;
   }
 
-  .fas.fa-angle-down{
-      float: right;
+.fas.fa-angle-down{
+    float: right;
   }
+
+section.sect-info > div{
+    color: white;
+}
+
+.col-end > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.col-end > h3{
+    text-align: left;
+    margin: 4em 3em 1.5em;
+}
+
+.col-end > ul > li{
+    text-align: left;
+    font-size: .8em;
+}
+
+.col-end > ul{
+    list-style: none;
+}
+
+.col-end.n1 > ul > li{
+    margin-top: 1em;
+    margin-left: 8.7em;
+}
+
+.col-end.n1 > h3{
+    margin: 4em 6em 1.5em;
+}
+
+.col-end > ul > li{
+    margin-top: 1em;
+    margin-left: 4.5em;
+}
+
+#hr-footer{
+    margin-top: 5em;
+    margin-left: 7em;
+    margin-right: 5em;
+}
+
+.language-box span{
+    font-size: .7em;
+    color: gray;
+}
+
+.language-box i{
+    color: gray;
+}
+
+.language-box{
+    margin-left: 7em;
+    margin-top: 7em;
+}
+
+  
